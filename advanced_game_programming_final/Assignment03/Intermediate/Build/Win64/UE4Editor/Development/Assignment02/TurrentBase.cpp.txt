@@ -1,0 +1,49 @@
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Development\Assignment02\Definitions.Assignment02.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Public\Projectiles/TurrentBase.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\TurrentBase.generated.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Private\../public/Projectiles/ProjectileBase.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Private\../Public/Interact/Obstacle.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Public\Interact/TouchInteractableBase.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Public\Interact/InteractableBase.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Public\Interact\InteractableInterface.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\InteractableInterface.generated.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\InteractableBase.generated.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\TouchInteractableBase.generated.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\Obstacle.generated.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\ProjectileBase.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Private\Projectiles\../../Public/Projectiles/TurrentFunctionLibrary.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\TurrentFunctionLibrary.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ArrowComponent.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ArrowComponent.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/QuartzSubscription.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/AudioMixerClockHandle.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/QuartzSubsystem.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/AudioMixerClockManager.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz\AudioMixerClock.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/QuartzMetronome.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer\QuartzSubsystem.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer\AudioMixerClockHandle.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/AudioMixerQuantizedCommands.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/SoundCue.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.generated.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h

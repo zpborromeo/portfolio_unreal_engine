@@ -1,0 +1,7 @@
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Development\Assignment02\Definitions.Assignment02.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Programs\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02/Public/Interact/InteractableBase.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Public\Interact\InteractableInterface.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\InteractableInterface.generated.h
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Inc\Assignment02\InteractableBase.generated.h
