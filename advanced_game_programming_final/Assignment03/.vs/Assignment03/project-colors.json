@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0309faed-ba22-44d9-a5da-0bc49d856958": {
+      "ProjectGuid": "0309faed-ba22-44d9-a5da-0bc49d856958",
+      "DisplayName": "Assignment03",
+      "ColorIndex": 0
+    },
+    "63dfce11-55b1-4d9f-8ce0-21ea50704ce6": {
+      "ProjectGuid": "63dfce11-55b1-4d9f-8ce0-21ea50704ce6",
+      "DisplayName": "Assignment03",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

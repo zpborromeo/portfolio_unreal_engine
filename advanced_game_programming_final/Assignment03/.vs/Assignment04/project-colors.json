@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ede29025-b929-4339-a437-2e2b36cac184": {
+      "ProjectGuid": "ede29025-b929-4339-a437-2e2b36cac184",
+      "DisplayName": "Assignment04",
+      "ColorIndex": 0
+    },
+    "12a8897f-986d-4210-aac5-ee8d3e9698c1": {
+      "ProjectGuid": "12a8897f-986d-4210-aac5-ee8d3e9698c1",
+      "DisplayName": "UE4",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
