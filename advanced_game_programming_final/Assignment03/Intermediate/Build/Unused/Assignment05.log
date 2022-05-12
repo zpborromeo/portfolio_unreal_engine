@@ -1,0 +1,15 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Projects\Unreal\Assignment5).
+  Building Assignment02Editor...
+  Using Visual Studio 2019 14.29.30141 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 7 actions with 12 processes...
+    [1/7] TouchInteractableBase.cpp
+    [2/7] Obstacle.cpp
+    [3/7] chair_throwable.cpp
+    [4/7] ProjectileBase.cpp
+    [5/7] UE4Editor-Assignment02-0058.lib
+       Creating library C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Development\Assignment02\UE4Editor-Assignment02-0058.lib and object C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Development\Assignment02\UE4Editor-Assignment02-0058.exp
+    [6/7] UE4Editor-Assignment02-0058.dll
+       Creating library C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Development\Assignment02\UE4Editor-Assignment02-0058.suppressed.lib and object C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Development\Assignment02\UE4Editor-Assignment02-0058.suppressed.exp
+    [7/7] Assignment02Editor.target
+  Total time in Parallel executor: 4.50 seconds
+  Total execution time: 5.43 seconds

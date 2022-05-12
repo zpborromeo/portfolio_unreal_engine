@@ -1,0 +1,2 @@
+C:\Projects\Unreal\Assignment5\Assignment03\Intermediate\Build\Win64\UE4Editor\Development\Assignment02\Definitions.Assignment02.h
+C:\Projects\Unreal\Assignment5\Assignment03\Source\Assignment02\Assignment02.h
