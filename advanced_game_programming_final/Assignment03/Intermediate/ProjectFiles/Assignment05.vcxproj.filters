@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Assignment05.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2E61E91D-7E9A-4FB9-93B7-27DF9C45D5F5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Assignment02.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Assignment02Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\East_Arty_ZU23.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{361120F9-8642-4B0F-8A2A-E5A5E05513CC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Assignment02">
+      <UniqueIdentifier>{6C9F41CD-1FFC-47FA-B1C7-CC9743E53042}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Assignment02\Assignment02.Build.cs">
+      <Filter>Source\Assignment02</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Assignment02\Assignment02.cpp">
+      <Filter>Source\Assignment02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment02\Assignment02.h">
+      <Filter>Source\Assignment02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment02\SDoor.cpp">
+      <Filter>Source\Assignment02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment02\SDoor.h">
+      <Filter>Source\Assignment02</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\character_stuff">
+      <UniqueIdentifier>{028FCABE-5515-44F8-85A5-5D2BD9DABAFA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Assignment02\character_stuff\pawn_chair_man.cpp">
+      <Filter>Source\Assignment02\character_stuff</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment02\character_stuff\pawn_chair_man.h">
+      <Filter>Source\Assignment02\character_stuff</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\FP_FirstPerson">
+      <UniqueIdentifier>{7D127392-9351-4B97-974E-1F16FC441DD9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Assignment02\FP_FirstPerson\FP_FirstPerson.h">
+      <Filter>Source\Assignment02\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment02\FP_FirstPerson\FP_FirstPersonCharacter.cpp">
+      <Filter>Source\Assignment02\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment02\FP_FirstPerson\FP_FirstPersonCharacter.h">
+      <Filter>Source\Assignment02\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment02\FP_FirstPerson\FP_FirstPersonGameMode.cpp">
+      <Filter>Source\Assignment02\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment02\FP_FirstPerson\FP_FirstPersonGameMode.h">
+      <Filter>Source\Assignment02\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment02\FP_FirstPerson\FP_FirstPersonHUD.cpp">
+      <Filter>Source\Assignment02\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment02\FP_FirstPerson\FP_FirstPersonHUD.h">
+      <Filter>Source\Assignment02\FP_FirstPerson</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\Private">
+      <UniqueIdentifier>{CC11980A-0DD5-4F21-A12F-D9C4304A48BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Assignment02\Private\cpp_coin.cpp">
+      <Filter>Source\Assignment02\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\cpp_lightswitch_trigger.cpp">
+      <Filter>Source\Assignment02\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\MovingAutomatic.cpp">
+      <Filter>Source\Assignment02\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Assignment02\Private\character_stuff">
+      <UniqueIdentifier>{8F3F2353-0CE6-4A72-B3FB-5E89A8ED858C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Assignment02\Private\character_stuff\ChairGameMode.cpp">
+      <Filter>Source\Assignment02\Private\character_stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\character_stuff\CharacterBase.cpp">
+      <Filter>Source\Assignment02\Private\character_stuff</Filter>
+    </ClCompile>
+    <Filter Include="Source\Assignment02\Private\Health">
+      <UniqueIdentifier>{297C0BF0-E5B1-4B51-899D-75C97D98DF08}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Health\cpp_HealthComponent.cpp">
+      <Filter>Source\Assignment02\Private\Health</Filter>
+    </ClCompile>
+    <Filter Include="Source\Assignment02\Private\Interact">
+      <UniqueIdentifier>{928FD3B8-8798-4499-898D-919B1DE9F200}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Interact\InteractableBase.cpp">
+      <Filter>Source\Assignment02\Private\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Interact\InteractableInterface.cpp">
+      <Filter>Source\Assignment02\Private\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Interact\Obstacle.cpp">
+      <Filter>Source\Assignment02\Private\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Interact\TouchInteractableBase.cpp">
+      <Filter>Source\Assignment02\Private\Interact</Filter>
+    </ClCompile>
+    <Filter Include="Source\Assignment02\Private\Interact\Moving">
+      <UniqueIdentifier>{5322BC31-B7B0-4858-B5BC-CDAF1DA551B9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Interact\Moving\MovingInteractable.cpp">
+      <Filter>Source\Assignment02\Private\Interact\Moving</Filter>
+    </ClCompile>
+    <Filter Include="Source\Assignment02\Private\Projectiles">
+      <UniqueIdentifier>{943D31F6-EA68-42B9-BFC4-BCEE675596D7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Projectiles\chair_throwable.cpp">
+      <Filter>Source\Assignment02\Private\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Projectiles\player_bullet.cpp">
+      <Filter>Source\Assignment02\Private\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Projectiles\ProjectileBase.cpp">
+      <Filter>Source\Assignment02\Private\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Projectiles\TurrentBase.cpp">
+      <Filter>Source\Assignment02\Private\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Assignment02\Private\Projectiles\TurrentFunctionLibrary.cpp">
+      <Filter>Source\Assignment02\Private\Projectiles</Filter>
+    </ClCompile>
+    <Filter Include="Source\Assignment02\Public">
+      <UniqueIdentifier>{EC0E9ACE-BB4A-415B-BC52-9360E4EF4C01}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Assignment02\Public\cpp_coin.h">
+      <Filter>Source\Assignment02\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\cpp_lightswitch_trigger.h">
+      <Filter>Source\Assignment02\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\MovingAutomatic.h">
+      <Filter>Source\Assignment02\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\Public\character_stuff">
+      <UniqueIdentifier>{EB74D460-A884-4E90-BD48-1F13F44F6763}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Assignment02\Public\character_stuff\ChairGameMode.h">
+      <Filter>Source\Assignment02\Public\character_stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\character_stuff\CharacterBase.h">
+      <Filter>Source\Assignment02\Public\character_stuff</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\Public\Health">
+      <UniqueIdentifier>{EA84C528-A591-4D83-9478-D4F3B0A68E57}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Health\cpp_HealthComponent.h">
+      <Filter>Source\Assignment02\Public\Health</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\Public\Interact">
+      <UniqueIdentifier>{DD4846E8-BD6F-41C8-BFB0-F16D627234E6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Interact\InteractableBase.h">
+      <Filter>Source\Assignment02\Public\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Interact\InteractableInterface.h">
+      <Filter>Source\Assignment02\Public\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Interact\Obstacle.h">
+      <Filter>Source\Assignment02\Public\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Interact\TouchInteractableBase.h">
+      <Filter>Source\Assignment02\Public\Interact</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\Public\Interact\Moving">
+      <UniqueIdentifier>{E751CAD0-4DB2-4CC2-B91A-3233900FC1A4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Interact\Moving\MovingInteractable.h">
+      <Filter>Source\Assignment02\Public\Interact\Moving</Filter>
+    </ClInclude>
+    <Filter Include="Source\Assignment02\Public\Projectiles">
+      <UniqueIdentifier>{A0DC5E3D-248A-4B12-BBDA-BA010A397F67}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Projectiles\chair_throwable.h">
+      <Filter>Source\Assignment02\Public\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Projectiles\player_bullet.h">
+      <Filter>Source\Assignment02\Public\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Projectiles\ProjectileBase.h">
+      <Filter>Source\Assignment02\Public\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Projectiles\TurrentBase.h">
+      <Filter>Source\Assignment02\Public\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Assignment02\Public\Projectiles\TurrentFunctionLibrary.h">
+      <Filter>Source\Assignment02\Public\Projectiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
