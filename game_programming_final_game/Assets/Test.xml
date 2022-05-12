@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Level>
+    <Object type="Player">
+        <Body type="Body" name="Player" x="250" y="500" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="Player" ANIM_LAG="10" ANIM_SIZE="3" NUM_SPRITES="12" SPRITE_HEIGHT="48" SPRITE_WIDTH="32" SPRITE_SHEET_NCOLS="3" SPRITE_SHEET_NROWS="4"/>
+        <Input type="Input"/>
+        <Physics type="Physics" bodyType="2" objectShape="0" density="2" friction="1" restitution="0" angularDamping="1" linearDamping="1" force="0" angle="0" spinSpeed="1" bullet="false" physicsOn="true" fixedRotation="true" physics_spinSpeed="1" offsetX="0" offsetY="8.f" hitBoxX="20" hitboxY="42" category="1" mask="1"/>
+        <Attribute type="Attribute" level="3" levelMax="10"/>
+        <Combat type="Combat"/>
+    </Object>
+    <Background type="Background">
+        <Body type="Body" name="Background" x="0" y="0" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="background" ANIM_LAG="1" ANIM_SIZE="1" NUM_SPRITES="1" SPRITE_HEIGHT="640" SPRITE_WIDTH="2100" SPRITE_SHEET_NCOLS="1" SPRITE_SHEET_NROWS="1"/>
+        <Physics type="Physics" bodyType="2" objectShape="0" density="2" friction="1" restitution="0" angularDamping="1" linearDamping="1" force="0" angle="0" spinSpeed="1" bullet="false" physicsOn="false" offsetX="0" offsetY="0" hitBoxX="32" hitboxY="32" category="0" mask="0"/>
+    </Background>
+    <Sword type="Sword">
+        <Body type="Body" name="Sword" x="240" y="500" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="Sword" ANIM_LAG="0" ANIM_SIZE="3" NUM_SPRITES="1" SPRITE_HEIGHT="32" SPRITE_WIDTH="16" SPRITE_SHEET_NCOLS="1" SPRITE_SHEET_NROWS="1"/>
+        <Physics type="Physics" bodyType="2" objectShape="0" density="1.2f" friction="0.f" restitution=".4f" angularDamping="2.f" linearDamping="0.f" force="1.f" angle="0.f" spinSpeed=".01" bullet="false" physicsOn="true" fixedRotation="false" offsetX="-12.f" offsetY="0.f" hitBoxX="16" hitboxY="30" category="2" mask="2"/>
+        <Attribute type="Attribute" level="1" levelMax="5"/>
+        <Combat type="Combat"/>
+    </Sword>
+    <Enemy type="Enemy">
+        <Body type="Body" name="Enemy" x="400" y="100" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="Enemy" ANIM_LAG="5" ANIM_SIZE="3" NUM_SPRITES="12" SPRITE_HEIGHT="32" SPRITE_WIDTH="32" SPRITE_SHEET_NCOLS="3" SPRITE_SHEET_NROWS="4"/>
+        <EnemyMovement type="EnemyMovement" maxVelocity="2.5f"/>
+        <Physics type="Physics" bodyType="2" objectShape="0" density="1.3" friction="1" restitution="0.1" angularDamping="0.1" linearDamping="0.5" force="1" angle="0" spinSpeed="1" bullet="false" physicsOn="true" fixedRotation="true" offsetX="0" offsetY="0" hitBoxX="26" hitboxY="32" category="4" mask="4"/>
+        <NPC type="NPC" roaming="1" follow="1" jump="0"/>
+        <Attribute type="Attribute" level="1" levelMax="10"/>
+        <Combat type="Combat"/>
+		<EnemyGui type="EnemyGui"/>
+    </Enemy>
+    <Enemy type="Boss">
+        <Body type="Body" name="Boss" x="400" y="100" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="Boss" ANIM_LAG="5" ANIM_SIZE="3" NUM_SPRITES="1" SPRITE_HEIGHT="140" SPRITE_WIDTH="90" SPRITE_SHEET_NCOLS="1" SPRITE_SHEET_NROWS="1"/>
+        <EnemyMovement type="EnemyMovement" maxVelocity="4.5f"/>
+        <Physics type="Physics" bodyType="2" objectShape="0" density="5" friction="0.2" restitution="0.1" angularDamping="0.1" linearDamping="0.5" force="1" angle="0" spinSpeed="1" bullet="false" physicsOn="true" fixedRotation="true" offsetX="30" offsetY="50" hitBoxX="70" hitboxY="140" category="64" mask="64"/>
+        <NPC type="NPC" roaming="1" follow="1" jump="1"/>
+        <Attribute type="Attribute" level="5" levelMax="10"/>
+        <Boss type="Boss"/>
+        <Combat type="Combat"/>
+		<EnemyGui type="EnemyGui"/>
+    </Enemy>
+    <Object type="Spawner">
+        <Body type="Body" name="EnemySpawner" x="-1" y="-1" angle="0"/>
+        <Spawner type="Spawner" numEnemies="2" spawnTime="5"/>
+    </Object>
+    <Object type="stoneBlock">
+        <Body type="Body" name="stoneBlock" x="140" y="140" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="Tiles" ANIM_LAG="5" ANIM_SIZE="3" NUM_SPRITES="12" SPRITE_HEIGHT="32" SPRITE_WIDTH="32" SPRITE_SHEET_NCOLS="3" SPRITE_SHEET_NROWS="4"/>
+        <Physics type="Physics" bodyType="0" objectShape="0" density="0" friction=".3" restitution="0" angularDamping="0.1" linearDamping="0.5" force="1" angle="0" spinSpeed="1" bullet="false" physicsOn="true" fixedRotation="true" offsetX="0" offsetY="0" hitBoxX="32" hitboxY="32" category="8" mask="8"/>
+    </Object>
+    <Object type="grassBlock">
+        <Body type="Body" name="stoneBlock" x="140" y="140" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="Tiles" ANIM_LAG="5" ANIM_SIZE="3" NUM_SPRITES="12" SPRITE_HEIGHT="32" SPRITE_WIDTH="32" SPRITE_SHEET_NCOLS="3" SPRITE_SHEET_NROWS="4"/>
+        <Physics type="Physics" bodyType="0" objectShape="0" density="0" friction=".2" restitution="0" angularDamping="0.1" linearDamping="0.5" force="1" angle="0" spinSpeed="1" bullet="false" physicsOn="true" fixedRotation="true" offsetX="0" offsetY="0" hitBoxX="32" hitboxY="32" category="8" mask="8"/>
+    </Object>
+    <NPC type="NPC">
+        <Body type="Body" name="NPC" x="400" y="100" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="NPC" ANIM_LAG="5" ANIM_SIZE="3" NUM_SPRITES="12" SPRITE_HEIGHT="48" SPRITE_WIDTH="48" SPRITE_SHEET_NCOLS="3" SPRITE_SHEET_NROWS="4"/>
+        <EnemyMovement type="EnemyMovement" maxVelocity="2.5f"/>
+        <Physics type="Physics" bodyType="2" objectShape="0" density="1.3" friction="1" restitution="0.1" angularDamping="0.1" linearDamping="0.5" force="1" angle="0" spinSpeed="1" bullet="false" physicsOn="true" fixedRotation="true" offsetX="0" offsetY="0" hitBoxX="48" hitboxY="56" category="16" mask="16"/>
+        <NPC type="NPC" roaming="1" follow="0" jump="0"/>
+    </NPC>
+    <Object type="speech">
+        <Body type="Body" name="Speech" x="35" y="400" angle="0"/>
+        <Sprite type="Sprite" spriteTexture="Speech" ANIM_LAG="1" ANIM_SIZE="1" NUM_SPRITES="1" SPRITE_HEIGHT="80" SPRITE_WIDTH="130" SPRITE_SHEET_NCOLS="1" SPRITE_SHEET_NROWS="1"/>
+        <Physics type="Physics" bodyType="0" objectShape="0" density="0" friction=".2" restitution="0" angularDamping="0.1" linearDamping="0.5" force="1" angle="0" spinSpeed="1" bullet="false" physicsOn="false" fixedRotation="true" offsetX="0" offsetY="0" hitBoxX="32" hitboxY="32" category="8" mask="8"/>
+    </Object>
+</Level>

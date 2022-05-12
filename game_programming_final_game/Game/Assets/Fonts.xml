@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level>
+	<Object name="Regular">
+		<Font path ="Assets/arial.ttf" fontsize="16"/>
+	</Object>
+	<Object name="RegularSmall">
+		<Font path ="Assets/arial.ttf" fontsize="8"/>
+	</Object>
+	<Object name="OverFont">
+		<Font path ="Assets/arial.ttf" fontsize="88"/>
+	</Object>
+</Level>

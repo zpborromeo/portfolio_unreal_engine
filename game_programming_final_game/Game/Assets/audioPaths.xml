@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level num ="1">
+	<!--Type 0 = wav Type 1 = mp3-->
+	<Sound name="Background">
+		<AudioFile type="1" path ="Assets/ff13_battletheme.mp3"/>
+	</Sound>
+	<Sound name="Slash1">
+    <AudioFile type="0" path ="Assets/sword_sound1.wav"/>
+	</Sound>
+  <Sound name="Slash2">
+    <AudioFile type="0" path ="Assets/sword_sound2.wav"/>
+  </Sound>
+  <Sound name="Slash3">
+    <AudioFile type="0" path ="Assets/sword_sound3.wav"/>
+  </Sound>
+  <Sound name="Slash3">
+    <AudioFile type="0" path ="Assets/sword_sound3.wav"/>
+  </Sound>
+  <Sound name="Slash4">
+    <AudioFile type="0" path ="Assets/sword_sound4.wav"/>
+  </Sound>
+  <Sound name="Slash5">
+    <AudioFile type="0" path ="Assets/sword_sound5.wav"/>
+  </Sound>
+  <Sound name="Slash6">
+    <AudioFile type="0" path ="Assets/sword_sound6.wav"/>
+  </Sound>
+  <Sound name="Slash7">
+    <AudioFile type="0" path ="Assets/sword_sound7.wav"/>
+  </Sound>
+  <Sound name="Slash8">
+    <AudioFile type="0" path ="Assets/sword_sound8.wav"/>
+  </Sound>
+  <Sound name="Jump">
+    <AudioFile type="0" path ="Assets/jump_sound_effect.wav"/>
+  </Sound>
+	<Sound name="GameOver">
+		<AudioFile type="0" path ="Assets/GameOverEffect.wav"/>
+	</Sound>
+	<Sound name="GameOverM">
+		<AudioFile type="1" path ="Assets/GameOverMusic.mp3"/>
+	</Sound>
+	<Sound name="EndCredits">
+		<AudioFile type="1" path ="Assets/EndCredits.mp3"/>
+	</Sound>
+	<Sound name="enemyDeath">
+		<AudioFile type="0" path ="Assets/enemyDeath.wav"/>
+	</Sound>
+	<Sound name="enemyHit">
+		<AudioFile type="0" path ="Assets/enemyHit.wav"/>
+	</Sound>
+</Level>
+

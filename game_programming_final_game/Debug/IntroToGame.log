@@ -1,0 +1,184 @@
+﻿  pch.cpp
+  Enemy.cpp
+C:\Users\Andre\source\repos\IntroToGame2\Enemy.cpp(126,40): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Andre\source\repos\IntroToGame2\Enemy.cpp(126,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Andre\source\repos\IntroToGame2\Enemy.cpp(126,58): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Andre\source\repos\IntroToGame2\Enemy.cpp(126,58): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Andre\source\repos\IntroToGame2\Enemy.cpp(127,94): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Andre\source\repos\IntroToGame2\Enemy.cpp(127,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  EnemyObjectFactory.cpp
+  EnemySpawner.cpp
+C:\Users\Andre\source\repos\IntroToGame2\EnemySpawner.cpp(25,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\source\repos\IntroToGame2\EnemySpawner.cpp(27,11): warning C4305: '+=': truncation from 'double' to 'float'
+  EnemySpawnerFactory.cpp
+  Engine.cpp
+  GraphicsDevice.cpp
+  InputDevice.cpp
+C:\Users\Andre\source\repos\IntroToGame2\InputDevice.cpp(123,35): warning C4244: '=': conversion from 'Sint32' to 'float', possible loss of data
+C:\Users\Andre\source\repos\IntroToGame2\InputDevice.cpp(124,35): warning C4244: '=': conversion from 'Sint32' to 'float', possible loss of data
+  Library.cpp
+  Main.cpp
+  Object.cpp
+  ObjectFactory.cpp
+  Player.cpp
+C:\Users\Andre\source\repos\IntroToGame2\Player.cpp(146,95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Andre\source\repos\IntroToGame2\Player.cpp(146,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PlayerObjectFactory.cpp
+  Texture.cpp
+  Timer.cpp
+  tinyxml2.cpp
+  View.cpp
+  Generating Code...
+  IntroToGame.vcxproj -> C:\Users\Andre\source\repos\IntroToGame2\Debug\IntroToGame.exe
+
+Project Performance Summary:
+     2810 ms  C:\Users\Andre\source\repos\IntroToGame2\IntroToGame.vcxproj   1 calls
+               2810 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  ComputeLinkSwitches                        1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  SelectResourceCompile                      1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  Build                                      1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  AddExternalIncludDirectoriesToPaths        1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  CopyFileToFolders                          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  GetReferencedVCProjectsInfo                1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  AfterMidl                                  1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        1 ms  ComputeCLOutputs                           1 calls
+        1 ms  ComputeCLInputPDBName                      1 calls
+        1 ms  ComputeRCOutputs                           1 calls
+        1 ms  BuiltProjectOutputGroup                    1 calls
+        1 ms  SatelliteDllsProjectOutputGroup            1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  ContentFilesProjectOutputGroup             1 calls
+        1 ms  BuildLinkTraverse                          1 calls
+        1 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  IncrementalClean                           1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        2 ms  FixupCLCompileOptions                      1 calls
+        2 ms  AssignTargetPaths                          1 calls
+        2 ms  SplitResourcesByCulture                    1 calls
+        4 ms  AssignProjectConfiguration                 1 calls
+        4 ms  CustomBuild                                1 calls
+        4 ms  MakeDirsForCl                              1 calls
+        5 ms  WarnCompileDuplicatedFilename              1 calls
+        5 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        5 ms  SetTelemetryEnvironmentVariables           1 calls
+        9 ms  InitializeBuildStatus                      1 calls
+       10 ms  PrepareForBuild                            1 calls
+       12 ms  ResolveProjectReferences                   1 calls
+       15 ms  CreateRecipeFile                           1 calls
+       24 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+      191 ms  ResourceCompile                            1 calls
+      559 ms  Link                                       1 calls
+     1933 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Delete                                     2 calls
+        1 ms  RemoveDuplicates                           2 calls
+        1 ms  AssignCulture                              1 calls
+        1 ms  CheckVCToolsetVersion                      1 calls
+        1 ms  CallTarget                                 2 calls
+        1 ms  CreateItem                                 2 calls
+        1 ms  WriteLinesToFile                           2 calls
+        1 ms  MSBuild                                    1 calls
+        1 ms  MakeDir                                   10 calls
+        1 ms  ConvertToAbsolutePath                      1 calls
+        2 ms  FindUnderPath                              5 calls
+        2 ms  AssignTargetPath                           7 calls
+        3 ms  SetEnv                                     9 calls
+        4 ms  AssignProjectConfiguration                 1 calls
+        4 ms  GetOutOfDateItems                          3 calls
+        5 ms  ReadLinesFromFile                          2 calls
+        5 ms  Touch                                      2 calls
+        6 ms  Message                                    3 calls
+       15 ms  GenerateDesktopDeployRecipe                1 calls
+      190 ms  RC                                         1 calls
+      556 ms  Link                                       1 calls
+     1929 ms  CL                                         2 calls

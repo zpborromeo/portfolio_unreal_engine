@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level>
+	<Object type="Player">
+		<SpriteSheet path ="Assets/sprite_sheet1.png"/>
+	</Object>
+	<Object type="Enemy">
+		<SpriteSheet path ="Assets/TestDummy.png"/>
+	</Object>
+	<Object type="EnemySpawner">
+		<SpriteSheet path ="Assets/TestDummy.png"/>
+	</Object>
+	<Object type="Tiles">
+		<SpriteSheet path ="Assets/tiles.png"/>
+	</Object>
+  <Object type="NPC">
+    <SpriteSheet path ="Assets/sprite_sheet3.png"/>
+  </Object>
+  <Object type="Boss">
+    <SpriteSheet path ="Assets/Mario-2.png"/>
+  </Object>
+  <Object type="background">
+    <SpriteSheet path ="Assets/sky-background3.png"/>
+  </Object>
+=======
+	<Object type="Sword">
+		<SpriteSheet path ="Assets/sword.png"/>
+	</Object>
+	<Object type="Speech">
+		<SpriteSheet path ="Assets/speechbubble.png"/>
+	</Object>
+>>>>>>> Stashed changes
+</Level>
+

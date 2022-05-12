@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Rectangle.cpp" />
+    <ClCompile Include="Source\enemyGui.cpp" />
+    <ClCompile Include="Source\PlayerGui.cpp" />
+    <ClCompile Include="Source\TextDevice.cpp" />
+    <ClCompile Include="Source\jumpPlayer.cpp" />
+    <ClCompile Include="Source\EngineData.cpp" />
+    <ClCompile Include="Source\attackPlayer.cpp" />
+    <ClCompile Include="Source\AttributeComponent.cpp" />
+    <ClCompile Include="Source\AudioDevice.cpp" />
+    <ClCompile Include="Source\BehaviorTree.cpp" />
+    <ClCompile Include="Source\Blackboard.cpp" />
+    <ClCompile Include="Source\BodyComponent.cpp" />
+    <ClCompile Include="Source\BranchTask.cpp" />
+    <ClCompile Include="Source\CombatComponent.cpp" />
+    <ClCompile Include="Source\Component.cpp" />
+    <ClCompile Include="Source\ContactListener.cpp" />
+    <ClCompile Include="Source\enemyMovement.cpp" />
+    <ClCompile Include="Source\EnemySpawnerComponent.cpp" />
+    <ClCompile Include="Source\enemyVisible.cpp" />
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\facePlayer.cpp" />
+    <ClCompile Include="Source\GraphicsDevice.cpp" />
+    <ClCompile Include="Source\healPlayer.cpp" />
+    <ClCompile Include="Source\InputComponent.cpp" />
+    <ClCompile Include="Source\InputDevice.cpp" />
+    <ClCompile Include="Source\LeafTask.cpp" />
+    <ClCompile Include="Source\Library.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Map.cpp" />
+    <ClCompile Include="Source\NPC.cpp" />
+    <ClCompile Include="Source\Object.cpp" />
+    <ClCompile Include="Source\ObjectFactory.cpp" />
+    <ClCompile Include="Source\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsComponent.cpp" />
+    <ClCompile Include="Source\PhysicsDevice.cpp" />
+    <ClCompile Include="Source\roaming.cpp" />
+    <ClCompile Include="Source\Selector.cpp" />
+    <ClCompile Include="Source\Sequence.cpp" />
+    <ClCompile Include="Source\SpriteComponent.cpp" />
+    <ClCompile Include="Source\Task.cpp" />
+    <ClCompile Include="Source\TextTag.cpp" />
+    <ClCompile Include="Source\Texture.cpp" />
+    <ClCompile Include="Source\Timer.cpp" />
+    <ClCompile Include="Source\View.cpp" />
+    <ClCompile Include="Thirdparty\xml\tinyxml2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Rectangle.h" />
+    <ClInclude Include="Source\enemyGui.h" />
+    <ClInclude Include="Source\PlayerGui.h" />
+    <ClInclude Include="Source\TextDevice.h" />
+    <ClInclude Include="Source\jumpPlayer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\attackPlayer.h" />
+    <ClInclude Include="Source\AttributeComponent.h" />
+    <ClInclude Include="Source\AudioDevice.h" />
+    <ClInclude Include="Source\BehaviorTree.h" />
+    <ClInclude Include="Source\Blackboard.h" />
+    <ClInclude Include="Source\BodyComponent.h" />
+    <ClInclude Include="Source\BranchTask.h" />
+    <ClInclude Include="Source\CombatComponent.h" />
+    <ClInclude Include="Source\Component.h" />
+    <ClInclude Include="Source\Constants.h" />
+    <ClInclude Include="Source\ContactListener.h" />
+    <ClInclude Include="Source\enemyMovement.h" />
+    <ClInclude Include="Source\EnemySpawnerComponent.h" />
+    <ClInclude Include="Source\enemyVisible.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\EngineData.h" />
+    <ClInclude Include="Source\facePlayer.h" />
+    <ClInclude Include="Source\GraphicsDevice.h" />
+    <ClInclude Include="Source\healPlayer.h" />
+    <ClInclude Include="Source\InputComponent.h" />
+    <ClInclude Include="Source\InputDevice.h" />
+    <ClInclude Include="Source\LeafList.h" />
+    <ClInclude Include="Source\LeafTask.h" />
+    <ClInclude Include="Source\Library.h" />
+    <ClInclude Include="Source\Map.h" />
+    <ClInclude Include="Source\NPC.h" />
+    <ClInclude Include="Source\Object.h" />
+    <ClInclude Include="Source\ObjectFactory.h" />
+    <ClInclude Include="Source\pch.h" />
+    <ClInclude Include="Source\PhysicsComponent.h" />
+    <ClInclude Include="Source\PhysicsDevice.h" />
+    <ClInclude Include="Source\presets.h" />
+    <ClInclude Include="Source\resource.h" />
+    <ClInclude Include="Source\roaming.h" />
+    <ClInclude Include="Source\Selector.h" />
+    <ClInclude Include="Source\Sequence.h" />
+    <ClInclude Include="Source\SpriteComponent.h" />
+    <ClInclude Include="Source\Task.h" />
+    <ClInclude Include="Source\TextTag.h" />
+    <ClInclude Include="Source\Texture.h" />
+    <ClInclude Include="Source\Timer.h" />
+    <ClInclude Include="Source\View.h" />
+    <ClInclude Include="Thirdparty\xml\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Assets\audioPaths.xml" />
+    <Xml Include="Assets\map.xml" />
+    <Xml Include="Assets\map_2.xml" />
+    <Xml Include="Assets\spritesheets.xml" />
+    <Xml Include="Assets\Test.xml" />
+    <Xml Include="audioPaths.xml" />
+    <Xml Include="Assets\Fonts.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IntroToGame1.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3bb6d9ab-4383-405f-aa7a-1853bc0edc7a}</ProjectGuid>
+    <RootNamespace>IntroToGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)Thirdparty\SDL2_ttf\include;$(ProjectDir)Thirdparty\SDL2_mixer\include;$(ProjectDir)Thirdparty\Box2d\Include\box2d;$(ProjectDir)Thirdpart\xml;$(ProjectDir)Thirdparty\SDL2_image\include;$(ProjectDir)Thirdparty\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Thirdparty\SDL2_ttf\lib\x86;$(ProjectDir)Thirdparty\SDL2_mixer\lib\x86;$(ProjectDir)Thirdparty\Box2d\lib;$(ProjectDir)Thirdparty\xml;$(ProjectDir)Thirdparty\SDL2\lib\x86;$(ProjectDir)Thirdparty\SDL2_image\lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)Game\</OutDir>
+    <IntDir>$(ProjectDir)Temp\</IntDir>
+    <SourcePath>$(ProjectDir)Source;$(ProjectDir)Thirdparty\xml;$(SourcePath)</SourcePath>
+    <PublicIncludeDirectories>C:\Users\Andre\source\repos\IntroToGameFinal\Thirdparty;$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)Thirdparty\SDL2_ttf\include;$(ProjectDir)Thirdparty\SDL2_mixer\include;$(ProjectDir)Thirdparty\Box2d\Include\box2d;$(ProjectDir)Thirdpart\xml;$(ProjectDir)Thirdparty\SDL2_image\include;$(ProjectDir)Thirdparty\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Thirdparty\SDL2_ttf\lib\x86;$(ProjectDir)Thirdparty\SDL2_mixer\lib\x86;$(ProjectDir)Thirdparty\Box2d\lib;$(ProjectDir)Thirdparty\xml;$(ProjectDir)Thirdparty\SDL2\lib\x86;$(ProjectDir)Thirdparty\SDL2_image\lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)Game\</OutDir>
+    <IntDir>$(ProjectDir)Temp\</IntDir>
+    <SourcePath>$(ProjectDir)Source;$(ProjectDir)Thirdparty\xml;$(SourcePath)</SourcePath>
+    <PublicIncludeDirectories>C:\Users\Andre\source\repos\IntroToGameFinal\Thirdparty;$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)Game\</OutDir>
+    <IntDir>$(ProjectDir)Temp\</IntDir>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <IncludePath>$(ProjectDir)ThirdParty\SDL2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)Game\</OutDir>
+    <IntDir>$(ProjectDir)Temp\</IntDir>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <IncludePath>$(ProjectDir)ThirdParty\SDL2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Thirdparty\Box2d\lib;$(ProjectDir)Thirdparty\xml;$(ProjectDir)Thirdparty\SDL2\lib\x86;$(ProjectDir)Thirdparty\SDL2_image\lib\x86;$(ProjectDir)Thirdparty\SDL2_ttf\lib\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)Thirdparty\SDL2_ttf\lib\x86;$(ProjectDir)Thirdparty\Box2d\lib;$(ProjectDir)Thirdparty\xml;$(ProjectDir)Thirdparty\SDL2_image\lib\x86;$(ProjectDir)Thirdparty\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;Box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>start copy "$(ProjectDir)ThirdParty\SDL2\lib\x86\*.dll" "$(ProjectDir)"
+start copy "$(ProjectDir)ThirdParty\SDL2_image\lib\x86\*.dll" "$(ProjectDir)"
+start copy "$(ProjectDir)ThirdParty\SDL2_mixer\lib\x86\*.dll" "$(ProjectDir)"
+start copy "$(ProjectDir)ThirdParty\SDL2_ttf\lib\x86\*.dll" "$(ProjectDir)"</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>start move "$(ProjectDir)*.dll" "$(ProjectDir)Game"
+start xcopy "$(ProjectDir)Assets" "$(ProjectDir)Game\Assets" /E /I /F /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Thirdparty\Box2d\lib;$(ProjectDir)Thirdparty\xml;$(ProjectDir)Thirdparty\SDL2\lib\x86;$(ProjectDir)Thirdparty\SDL2_image\lib\x86;$(ProjectDir)Thirdparty\SDL2_ttf\lib\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)Thirdparty\SDL2_ttf\lib\x86;$(ProjectDir)Thirdparty\Box2d\lib;$(ProjectDir)Thirdparty\xml;$(ProjectDir)Thirdparty\SDL2_image\lib\x86;$(ProjectDir)Thirdparty\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;Box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>start copy "$(ProjectDir)ThirdParty\SDL2\lib\x86\*.dll" "$(ProjectDir)"
+start copy "$(ProjectDir)ThirdParty\SDL2_image\lib\x86\*.dll" "$(ProjectDir)"
+start copy "$(ProjectDir)ThirdParty\SDL2_mixer\lib\x86\*.dll" "$(ProjectDir)"
+start copy "$(ProjectDir)ThirdParty\SDL2_ttf\lib\x86\*.dll" "$(ProjectDir)"</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>start move "$(ProjectDir)*.dll" "$(ProjectDir)Game"
+start xcopy "$(ProjectDir)Assets" "$(ProjectDir)Game\Assets" /E /I /F /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>start xcopy "$(ProjectDir)Assets" "$(ProjectDir)Game\Assets" /E /I /F /Y 
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>start xcopy "$(ProjectDir)Assets" "$(ProjectDir)Game\Assets" /E /I /F /Y 
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
