@@ -1,0 +1,1068 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\build\\++UE5\\Sync\\Samples\\Games\\Lyra\\Build\\Scripts\\Lyra.Automation.csproj": {}
+  },
+  "projects": {
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Android\\Android.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Android\\Android.Automation.csproj",
+        "projectName": "Android.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Android\\Android.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+        "projectName": "AutomationUtils.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Apis.Drive.v3": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.33.1.1225, )"
+            },
+            "Google.Apis.Sheets.v4": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.33.1.1229, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\CrowdinLocalization\\CrowdinLocalization.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\CrowdinLocalization\\CrowdinLocalization.Automation.csproj",
+        "projectName": "CrowdinLocalization.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\CrowdinLocalization\\CrowdinLocalization.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\CrowdinLocalization\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Gauntlet\\Gauntlet.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Gauntlet\\Gauntlet.Automation.csproj",
+        "projectName": "Gauntlet.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Gauntlet\\Gauntlet.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Gauntlet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Android\\Android.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Android\\Android.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\OneSkyLocalization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\OneSkyLocalization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\XLocLocalization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\XLocLocalization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "MySql.Data": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.10.9, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+        "projectName": "Localization.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\OneSkyLocalization.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\OneSkyLocalization.Automation.csproj",
+        "projectName": "OneSkyLocalization.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\OneSkyLocalization.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj",
+        "projectName": "AutomationScripts.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.S3": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.113.2, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\XLocLocalization.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\XLocLocalization.Automation.csproj",
+        "projectName": "XLocLocalization.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\XLocLocalization.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+        "projectName": "EpicGames.Build",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+        "projectName": "EpicGames.Core",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2021.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OpenTracing": {
+              "target": "Package",
+              "version": "[0.12.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+        "projectName": "EpicGames.Jupiter",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+        "projectName": "UnrealBuildTool",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "OpenTracing": {
+              "target": "Package",
+              "version": "[0.12.1, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Reflection.MetadataLoadContext": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "System.Security.Cryptography.Csp": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\build\\++UE5\\Sync\\Samples\\Games\\Lyra\\Build\\Scripts\\Lyra.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\build\\++UE5\\Sync\\Samples\\Games\\Lyra\\Build\\Scripts\\Lyra.Automation.csproj",
+        "projectName": "Lyra.Automation",
+        "projectPath": "D:\\build\\++UE5\\Sync\\Samples\\Games\\Lyra\\Build\\Scripts\\Lyra.Automation.csproj",
+        "packagesPath": "C:\\Users\\buildmachine\\.nuget\\packages\\",
+        "outputPath": "D:\\build\\++UE5\\Sync\\Samples\\Games\\Lyra\\Build\\Scripts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buildmachine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\CrowdinLocalization\\CrowdinLocalization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\CrowdinLocalization\\CrowdinLocalization.Automation.csproj"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Gauntlet\\Gauntlet.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Gauntlet\\Gauntlet.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\OneSkyLocalization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\OneSkyLocalization\\OneSkyLocalization.Automation.csproj"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\XLocLocalization.Automation.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\AutomationTool\\XLocLocalization\\XLocLocalization.Automation.csproj"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\build\\++UE5\\Sync\\Engine\\Binaries\\ThirdParty\\DotNet\\Windows\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

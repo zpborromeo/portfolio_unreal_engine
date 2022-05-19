@@ -1,0 +1,11 @@
+D:\build\++UE5\Sync\Binaries\DotNET\AutomationTool\AutomationScripts\Lyra\UnrealBuildTool.exe
+D:\build\++UE5\Sync\Binaries\DotNET\AutomationTool\AutomationScripts\Lyra\Lyra.Automation.deps.json
+D:\build\++UE5\Sync\Binaries\DotNET\AutomationTool\AutomationScripts\Lyra\Lyra.Automation.dll
+D:\build\++UE5\Sync\Binaries\DotNET\AutomationTool\AutomationScripts\Lyra\Lyra.Automation.pdb
+D:\build\++UE5\Sync\Samples\Games\Lyra\Build\Scripts\obj\Development\Lyra.Automation.csprojAssemblyReference.cache
+D:\build\++UE5\Sync\Samples\Games\Lyra\Build\Scripts\obj\Development\Lyra.Automation.AssemblyInfoInputs.cache
+D:\build\++UE5\Sync\Samples\Games\Lyra\Build\Scripts\obj\Development\Lyra.Automation.AssemblyInfo.cs
+D:\build\++UE5\Sync\Samples\Games\Lyra\Build\Scripts\obj\Development\Lyra.Automation.csproj.CoreCompileInputs.cache
+D:\build\++UE5\Sync\Samples\Games\Lyra\Build\Scripts\obj\Development\Lyra.Automation.csproj.CopyComplete
+D:\build\++UE5\Sync\Samples\Games\Lyra\Build\Scripts\obj\Development\Lyra.Automation.dll
+D:\build\++UE5\Sync\Samples\Games\Lyra\Build\Scripts\obj\Development\Lyra.Automation.pdb
